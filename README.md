@@ -1,4 +1,3 @@
-# [Yuhao(Alex) Chen](yuhaochen1997.github.io)
 Master of Engineering in Financial Technology • University Of California, Berkeley
 
 ## Bio
