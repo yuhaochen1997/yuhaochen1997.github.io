@@ -8,13 +8,14 @@ Alex Chen is currently a Master of Engineering student in Industrial Engineering
 
 ## Projects
 * [Data Science Selected Projects at MIT](https://yuhaochen1997.github.io/Data-Science/)
+* Cryptocurrency Market Analysis: [Poster](https://nbviewer.jupyter.org/github/yuhaochen1997/Data-Science/blob/master/Cryptocurrency_Market_Analysis_Project/6.419_Project_Poster.pdf) | [Report](https://nbviewer.jupyter.org/github/yuhaochen1997/Data-Science/blob/master/Cryptocurrency_Market_Analysis_Project/6.419_Project_Cryptocurrency_Market_Analysis.pdf)
 
 ## Intercultural Communication
 [Culture-Specific Presentation - China](https://www.youtube.com/watch?v=jOvxUHXii1k)
 
 ## Article
 ### Medium
-[Bitcoin, Cryptocurrency, and Blockchain](https://medium.com/altcoin-magazine/bitcoin-cryptocurrency-and-blockchain-8f9d93b3ba71)
+[Bitcoin, Cryptocurrency, and Blockchain](https://medium.com/the-capital/bitcoin-cryptocurrency-and-blockchain-8f9d93b3ba71) _Featured on **The Capital**_
 
 ### SSPAI (Chinese)
 * [看书十倍速？速读真的这么神奇？——《雪球速读法》读书笔记](https://sspai.com/post/45698) **(54K Pageviews)**
