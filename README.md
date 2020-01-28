@@ -15,8 +15,8 @@ Alex Chen is currently a Master of Engineering student in Industrial Engineering
 
 ## Article
 ### Medium
-[Bitcoin, Cryptocurrency, and Blockchain](https://medium.com/the-capital/bitcoin-cryptocurrency-and-blockchain-8f9d93b3ba71)  _Featured on **The Capital**_
-[Will Blockchain Become the Next-generation Internet?](https://medium.com/@alex_chen_97/will-blockchain-become-the-next-generation-internet-4004f47d39b7)
+* [Bitcoin, Cryptocurrency, and Blockchain](https://medium.com/the-capital/bitcoin-cryptocurrency-and-blockchain-8f9d93b3ba71)  _Featured on **The Capital**_
+* [Will Blockchain Become the Next-generation Internet?](https://medium.com/@alex_chen_97/will-blockchain-become-the-next-generation-internet-4004f47d39b7)
 
 ### SSPAI (Chinese)
 * [看书十倍速？速读真的这么神奇？——《雪球速读法》读书笔记](https://sspai.com/post/45698) **(54K Pageviews)**
