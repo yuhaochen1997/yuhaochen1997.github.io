@@ -28,6 +28,7 @@ Estonian e-resident, [Website Author (Chinese)](https://sspai.com/u/gmax5rrj/pos
 * [从 7 万年的视角看人类发展：《人类简史》读书笔记](https://sspai.com/post/54203)
 * [如何利用 MOOC 在家学习哈佛大学的课程](https://sspai.com/post/55011) **(41K Pageviews)**
 * [在校大学生如何进行海外交流？](https://sspai.com/post/55627)
+* [3步教你科学减脂](https://sspai.com/post/58909)
 
 ### Zhihu.com (Chinese)
 * [GRE 如何准备才能拿高分？](https://www.zhihu.com/question/19701271/answer/415580864)
