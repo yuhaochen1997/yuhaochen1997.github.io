@@ -1,0 +1,256 @@
+<!-- Resume -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head id="top">
+    <meta charset="UTF-8">
+    <title>Resume · Alex Chen</title>
+    <meta name="Description" content="Zain Khoja is a designer and student at Cornell. He's currently a Design Systems Intern at GitHub.">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/hover-min.css">
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        /* Back button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.back').removeClass('no-display');
+          } else {
+              $('.back').addClass('no-display');
+          }
+        });
+
+        /* Forward button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.forward').removeClass('no-display');
+          } else {
+              $('.forward').addClass('no-display');
+          }
+        });
+
+        /* Scroll button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.scroll-to-top').removeClass('no-display');
+          } else {
+              $('.scroll-to-top').addClass('no-display');
+          }
+        });
+
+        /* Smooth Scrolling */
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 500, function(){
+                    window.location.hash = hash;
+                });
+            }
+          });
+        });
+    </script>
+
+    <!-- Webpage Icons -->
+    <link rel="icon" type="image/x-icon" href="zk-favicon.ico"/>
+    <link rel="icon" type="image/png" href="zk-logo.png"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89012104-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89012104-2');
+    </script>
+
+    <!-- Twitter Preview -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@zainkho"/>
+    <meta name="twitter:creator" content="@zainkho"/>
+    <meta name="twitter:title" content="Zain Khoja" />
+    <meta name="twitter:description" content="Zain Khoja is a designer and student at Cornell."/>
+    <meta name="twitter:image:src" content="https://zainkho.com/zk-screenshot.png"/>
+</head>
+
+<body class="grid">
+    <!-- Header -->
+    <header class="c12">
+        <!-- Nav -->
+        <div class="hero">
+            <div class="header">
+                <a href="/"><img alt="Alex Chen logo" src="ac-logo.svg" class="zk-logo"></a>
+                <h3 class="medium content-web">Alex Chen</h3>
+                <nav class="nav">
+                    <h5 class="option"><a href="/">Work</a></h5>
+                    <h5 class="option"><a href="about">About</a></h5>
+                    <h5 class="option"><a href="travel">Travel</a></h5>
+                    <h5 class="option selected">Resume</h5>
+                </nav>
+            </div>
+
+            <!-- Title -->
+            <div class="title">
+                <h1 class="content-web emoji">💼</h1>
+                <div>
+                    <h1 class="content-mobile">💼</h1>
+                    <h1>Resume.<br>
+                    <span class="medium">Or download it <a href="ac-resume.pdf" aria-label="Alex Chen resume" target="_blank" rel="noopener" class="link" style="border-bottom: 0.075em solid var(--black)">here</a> if you like.</span></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="c6 main">
+
+        <div class="section">
+            <h5 class="subtitle">Experience</h5>
+            <h3><a href="https://tech.pingan.com/en/" target="_blank" rel="noopener" class="link" style="color: #DA5E29">Ping An Technology</a></h3>
+            <p class="medium">Data Mining Engineer Intern · Jun 2018 to Aug 2018</p>
+            <br>
+            <p>
+              Extracted more than 100,000 data samples from the company’s database using SQL, and classified customer data using decision tree machine learning method with Python in order to categorize bank customers and optimize ad delivery.
+            </p>
+            <br>
+            <p>
+              Established a data preprocessing workflow with Spark to save 4 hours per week for each team member by learning Scala language quickly.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3><a href="http://en.sanpowergroup.com" target="_blank" rel="noopener" class="link" style="color: #C4291F">SanPower Group</a></h3>
+            <p class="medium">Business Intelligence Analyst Intern · Jan 2018 to Feb 2018</p>
+            <br>
+            <p>
+              Supported CTO to integrate machine learning and artificial intelligence into the company’s infrastructure.
+            </p>
+            <br>
+            <p>
+              Built an ARIMA time series model to predict cellphone sales of SanPower Group, reduced prediction errors from 13% to 5%.
+            </p>
+        </div>
+
+        <!-- Berkeley  -->
+        <div class="section">
+            <h5 class="subtitle">Education</h5>
+            <h3><a href="https://www.berkeley.edu" target="_blank" rel="noopener" class="link berkeley-link">University of California, Berkeley</a></h3>
+            <p class="medium">M.Eng. Industrial Engineering & Operations Research · Dec 2020</p>
+            <br>
+            <p>Concentration in Financial Technology</p>
+        </div>
+
+        <!-- XJTU  -->
+        <div class="section">
+            <h3><a href="http://en.xjtu.edu.cn/index.htm" target="_blank" rel="noopener" class="link xjtu-link">Xi'an Jiaotong University</a></h3>
+            <p class="medium">B.E. Automation · Sept 2015 to May 2019</p>
+            <br>
+            <p>Artificial Intelligence · Machine Learning · Organizational Process for Business Analytics</p>
+            <p>GPA 5.0</p>
+        </div>
+
+        <!-- MIT  -->
+        <div class="section">
+            <h3><a href="http://www.mit.edu" target="_blank" rel="noopener" class="link mit-link">Massachusetts Institute of Technology</a></h3>
+            <p class="medium">Exchange · Computer Science · Aug 2019 to Dec 2019</p>
+            <br>
+            <p>Artificial Intelligence · Machine Learning · Organizational Process for Business Analytics</p>
+            <p>GPA 5.0</p>
+        </div>
+
+        <!-- NDHU  -->
+        <div class="section">
+            <h3><a href="https://epage.ndhu.edu.tw/bin/home.php?Lang=en" target="_blank" rel="noopener" class="link ndhu-link">Taiwan Dong Hwa University</a></h3>
+            <p class="medium">Exchange · Computer Science · Aug 2018 to Dec 2018</p>
+            <br>
+            <p>Operations Research · Marketing Management · Photography</p>
+            <p>GPA 4.0</p>
+        </div>
+
+        <!-- NUS  -->
+        <div class="section">
+            <h3><a href="http://www.nus.edu.sg/" target="_blank" rel="noopener" class="link nus-link">National University of Singapore</a></h3>
+            <p class="medium">Summer School · Computing School · Jul 2017 to Aug 2017</p>
+            <br>
+            <p>Analyzed e-commerce travel platform’s network effect, scale economy and retention rate. Wrote business plan for an innovative self-service tourism platform.</p>
+        </div>
+
+        <!-- Cryptocurrency -->
+        <div class="section">
+            <h5 class="subtitle">Projects</h5>
+            <h3><a href="currency.html" target="_blank" rel="noopener" class="link currency-link">Cryptocurrency Market Analysis</a></h3>
+            <p class="medium">MIT · Sept 2018 to Dec 2018</p>
+            <br>
+            <p>
+              Collaborated with team members to determine data source, quantitative analysis approach, and data processing pipeline.
+            </p>
+            <br>
+            <p>
+              Used API to get over 10,000 real-time data points, and conducted various analysis including machine learning method and network analysis.
+            </p>
+        </div>
+
+        <!-- Activities -->
+        <div class="section">
+            <h5 class="subtitle">Activities</h5>
+            <h3><a href="https://www.pathacademics.com/" target="_blank" rel="noopener" class="link" style="color: #4166AF">Path Academics</a></h3>
+            <p class="medium">Teaching Assistant · Jan 2018 to Aug 2019</p>
+            <br>
+            <p>
+              Assisted the professor preparing teaching classes, answered students’ question, and advised their projects.
+            </p>
+            <br>
+            <p>
+              Took charge in program coordination and bridged the communication gap between American professor and Chinese students.
+            </p>
+        </div>
+
+        <div class="section">
+            <h5 class="subtitle">Skills</h5>
+            <h3>Programming</h3>
+            <br>
+            <p>Python · R · SQL · HTML/CSS · Git</p>
+        </div>
+
+        <div class="section">
+            <h3>Languages</h3>
+            <br>
+            <p>English · Chinese (Native)</p>
+        </div>
+
+        <div class="section">
+            <h3>Interests</h3>
+            <br>
+            <p>Basketball · Weight Training · Table Tennis</p>
+        </div>
+
+    </main>
+
+    <footer class="c12 grid">
+        <div class="c6-left">
+            <p>If you’re looking to work with me or want to grab some coffee, feel free to email me at <a href="mailto:znk4@cornell.edu?subject=Hey!" target="_blank" rel="noopener">znk4@cornell.edu</a>.</p>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/zainkho" target="_blank" rel="noopener"><img alt="Twitter icon" src="icons/twitter.svg" class="icons"></a>
+            <a href="https://medium.com/@zainkho" target="_blank" rel="noopener"><img alt="Medium icon" src="icons/medium.svg" class="icons"></a>
+            <a href="https://linkedin.com/in/zainkho" target="_blank" rel="noopener"><img alt="LinkedIn icon" src="icons/linkedin.svg" class="icons"></a>
+        </div>
+
+        <!-- Scroll To Top -->
+        <a href="#top" aria-label="scroll to top" class="content-web no-display scroll-to-top"></a>
+    </footer>
+
+</body>
+
+</html>

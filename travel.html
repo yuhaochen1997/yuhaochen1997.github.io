@@ -1,0 +1,267 @@
+<!-- Travel -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head id="top">
+    <meta charset="UTF-8">
+    <title>Travel · Alex Chen</title>
+    <meta name="Description" content="Zain Khoja is a designer and student at Cornell. He's currently a Design Systems Intern at GitHub.">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/hover-min.css">
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        /* Back button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.back').removeClass('no-display');
+          } else {
+              $('.back').addClass('no-display');
+          }
+        });
+
+        /* Forward button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.forward').removeClass('no-display');
+          } else {
+              $('.forward').addClass('no-display');
+          }
+        });
+
+        /* Scroll button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.scroll-to-top').removeClass('no-display');
+          } else {
+              $('.scroll-to-top').addClass('no-display');
+          }
+        });
+
+        /* Smooth Scrolling */
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 500, function(){
+                    window.location.hash = hash;
+                });
+            }
+          });
+        });
+    </script>
+
+    <!-- Webpage Icons -->
+    <link rel="icon" type="image/x-icon" href="zk-favicon.ico"/>
+    <link rel="icon" type="image/png" href="zk-logo.png"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89012104-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89012104-2');
+    </script>
+
+    <!-- Twitter Preview -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@zainkho"/>
+    <meta name="twitter:creator" content="@zainkho"/>
+    <meta name="twitter:title" content="Zain Khoja" />
+    <meta name="twitter:description" content="Zain Khoja is a designer and student at Cornell."/>
+    <meta name="twitter:image:src" content="https://zainkho.com/zk-screenshot.png"/>
+</head>
+
+<body class="grid">
+    <!-- Header -->
+    <header class="c12">
+        <!-- Nav -->
+        <div class="hero">
+            <div class="header">
+                <a href="/"><img alt="Zain Khoja logo" src="zk-logo.svg" class="zk-logo"></a>
+                <h3 class="medium content-web">Alex Chen</h3>
+                <nav class="nav">
+                    <h5 class="option"><a href="/">Work</a></h5>
+                    <h5 class="option"><a href="about">About</a></h5>
+                    <h5 class="option selected">Travel</h5>
+                    <h5 class="option"><a href="resume">Resume</a></h5>
+                </nav>
+            </div>
+
+            <!-- Title -->
+            <div class="title">
+                <h1 class="content-web emoji">🧳</h1>
+                <div>
+                    <h1 class="content-mobile">🧳</h1>
+                    <h1 class="travel-title">Travel.<br>
+                    <span class="medium">Shot on iPhone.</span></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="c12 main">
+        <!-- Chicago -->
+        <div class="section">
+            <h2 class="city city-cambridge">Chicago, <span class="medium">Illinois</span></h2>
+            <div class="scroll">
+                <img alt="view1, Chicago, Illinois" src="work/travel/chicago1.jpg" class="photo">
+                <img alt="view2, Chicago, Illinois" src="work/travel/chicago2.jpg" class="photo">
+                <img alt="view3, Chicago, Illinois" src="work/travel/chicago3.jpg" class="photo">
+                <img alt="view4, Chicago, Illinois" src="work/travel/chicago4.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Cuba -->
+        <div class="section">
+            <h2 class="city city-cuba"> <span class="medium">Cuba</span></h2>
+            <div class="scroll">
+                <img alt="1, Cuba" src="work/travel/cuba1.jpg" class="photo">
+                <img alt="2, Cuba" src="work/travel/cuba2.jpg" class="photo">
+                <img alt="3, Cuba" src="work/travel/cuba3.jpg" class="photo">
+                <img alt="4, Cuba" src="work/travel/cuba4.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Yading -->
+        <div class="section">
+            <h2 class="city city-yading">Yading, <span class="medium">China</span></h2>
+            <div class="scroll">
+                <img alt="yading1, yading, China" src="work/travel/yading1.jpg" class="photo">
+                <img alt="yading2, yading, China" src="work/travel/yading2.jpg" class="photo">
+                <img alt="yading3, yading, China" src="work/travel/yading3.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Cancun -->
+        <div class="section">
+            <h2 class="city city-cancun">Cancún, <span class="medium">Mexico</span></h2>
+            <div class="scroll">
+                <img alt="Sea, Cancun, Mexico" src="work/travel/cancun1.jpg" class="photo">
+                <img alt="Hotel, Cancun, Mexico" src="work/travel/cancun2.jpg" class="photo">
+                <img alt="Me, Cancun, Mexico" src="work/travel/cancun3.jpg" class="photo">
+                <img alt="Flower, Cancun, Mexico" src="work/travel/cancun4.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Guanajuato -->
+        <div class="section">
+            <h2 class="city city-guanajuato">Guanajuato, <span class="medium">Mexico</span></h2>
+            <div class="scroll">
+                <img alt="city, Guanajuato, Mexico" src="work/travel/guanajuato1.jpg" class="photo">
+                <img alt="Door, Guanajuato, Mexico" src="work/travel/guanajuato2.jpg" class="photo">
+                <img alt="Street1, Guanajuato, Mexico" src="work/travel/guanajuato3.jpg" class="photo">
+                <img alt="Street2, Guanajuato, Mexico" src="work/travel/guanajuato4.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- LA -->
+        <div class="section">
+            <h2 class="city city-la">Los Angeles, <span class="medium">California</span></h2>
+            <div class="scroll">
+                <img alt="la1, la, California" src="work/travel/la1.jpg" class="photo">
+                <img alt="la2, la, California" src="work/travel/la2.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Cambridge -->
+        <div class="section">
+            <h2 class="city city-cambridge">Cambridge, <span class="medium">Massachusetts</span></h2>
+            <div class="scroll">
+                <img alt="Me, Cambridge, Massachusetts" src="work/travel/cambridge1.jpg" class="photo">
+                <img alt="MIT, Cambridge, Massachusetts" src="work/travel/cambridge2.jpg" class="photo">
+                <img alt="Fall, Cambridge, Massachusetts" src="work/travel/cambridge3.jpg" class="photo">
+                <img alt="MIT inner, Cambridge, Massachusetts" src="work/travel/cambridge4.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Taiwan -->
+        <div class="section">
+            <h2 class="city city-taiwan"> <span class="medium">Taiwan</span></h2>
+            <div class="scroll">
+                <img alt="taiwan1, taiwan, Taiwan" src="work/travel/taiwan1.jpg" class="photo">
+                <img alt="taiwan2, taiwan, Taiwan" src="work/travel/taiwan2.jpg" class="photo">
+                <img alt="taiwan3, taiwan, Taiwan" src="work/travel/taiwan3.jpg" class="photo">
+                <img alt="taiwan4, taiwan, Taiwan" src="work/travel/taiwan4.jpg" class="photo">
+                <img alt="taiwan5, taiwan, Taiwan" src="work/travel/taiwan5.jpg" class="photo">
+                <img alt="taiwan6, taiwan, Taiwan" src="work/travel/taiwan6.jpg" class="photo">
+                <img alt="taiwan7, taiwan, Taiwan" src="work/travel/taiwan7.jpg" class="photo">
+                <img alt="taiwan8, taiwan, Taiwan" src="work/travel/taiwan8.jpg" class="photo">
+                <img alt="taiwan9, taiwan, Taiwan" src="work/travel/taiwan9.jpg" class="photo">
+                <img alt="taiwan10, taiwan, Taiwan" src="work/travel/taiwan10.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Tokyo -->
+        <div class="section">
+            <h2 class="city city-tokyo">Tokyo, <span class="medium">Japan</span></h2>
+            <div class="scroll">
+                <img alt="Tower, Tokyo, Japan" src="work/travel/tokyo1.jpg" class="photo">
+                <img alt="Tower2, Tokyo, Japan" src="work/travel/tokyo2.jpg" class="photo">
+                <img alt="Garden, Tokyo, Japan" src="work/travel/tokyo3.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Kyoto -->
+        <div class="section">
+            <h2 class="city city-kyoto">Kyoto, <span class="medium">Japan</span></h2>
+            <div class="scroll">
+                <img alt="Temple1, Kyoto, Japan" src="work/travel/kyoto1.jpg" class="photo">
+                <img alt="Temple2, Kyoto, Japan" src="work/travel/kyoto2.jpg" class="photo">
+                <img alt="Bottle, Kyoto, Japan" src="work/travel/kyoto3.jpg" class="photo">
+                <img alt="Lamp, Kyoto, Japan" src="work/travel/kyoto4.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Osaka -->
+        <div class="section">
+            <h2 class="city city-osaka">Osaka, <span class="medium">Japan</span></h2>
+            <div class="scroll">
+                <img alt="Subway, Osaka, Japan" src="work/travel/osaka1.jpg" class="photo">
+                <img alt="Fishes, Osaka, Japan" src="work/travel/osaka2.jpg" class="photo">
+            </div>
+        </div>
+
+        <!-- Singapore -->
+        <div class="section">
+            <h2 class="city city-singapore"> <span class="medium">Singapore</span></h2>
+            <div class="scroll">
+                <img alt="Lv, Singapore" src="work/travel/singapore1.jpg" class="photo">
+                <img alt="rain, Singapore" src="work/travel/singapore2.jpg" class="photo">
+                <img alt="study center, Singapore" src="work/travel/singapore3.jpg" class="photo">
+                <img alt="jellyfish, Singapore" src="work/travel/singapore4.jpg" class="photo">
+                <img alt="heart, Singapore" src="work/travel/singapore5.jpg" class="photo">
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="c12 grid">
+        <div class="c6-left">
+            <p>Work with me or grab some coffee, feel free to email me at <a href="mailto:yuhao_chen@berkeley.edu?subject=Hey!" target="_blank" rel="noopener">yuhao_chen@berkeley.edu</a>.</p>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/zainkho" target="_blank" rel="noopener"><img alt="Twitter icon" src="icons/twitter.svg" class="icons"></a>
+            <a href="https://medium.com/@zainkho" target="_blank" rel="noopener"><img alt="Medium icon" src="icons/medium.svg" class="icons"></a>
+            <a href="https://linkedin.com/in/zainkho" target="_blank" rel="noopener"><img alt="LinkedIn icon" src="icons/linkedin.svg" class="icons"></a>
+        </div>
+
+        <!-- Scroll To Top -->
+        <a href="#top" aria-label="scroll to top" class="content-web no-display scroll-to-top"></a>
+    </footer>
+</body>
+
+</html>
