@@ -313,7 +313,6 @@ video {
 }
 .exp-github {
     background: #24292e;
-
 }
 .exp-starbucks {
     background: #00704A;
@@ -330,6 +329,12 @@ video {
 .exp-nalp {
     background: #0052A5;
 }
+.exp-currency {
+    background: #77428D;
+}
+.exp-interface {
+    background: #EFBB24;
+}
 
 .github-logo {
     position: relative;
@@ -338,6 +343,7 @@ video {
 
     animation: 1.0s ease-in-out infinite infinite-bob;
 }
+
 .starbucks-heat-container {
     display: flex;
     flex-direction: row;
@@ -436,6 +442,16 @@ video {
     position: relative;
     margin-bottom: 1.5em;
     height: 17.5%;
+}
+.currency-logo {
+    position: relative;
+    margin-bottom: 1.5em;
+    height: 25%;
+}
+.interface-logo {
+    position: relative;
+    margin-bottom: 1.5em;
+    height: 25%;
 }
 
 /* FOOTER */
@@ -574,10 +590,6 @@ footer p a:hover {
 
 .eresident-link {
     color: #001CE6;
-}
-
-.currency-link {
-    color: #312070;
 }
 
 /* TRAVEL */
@@ -833,6 +845,24 @@ footer p a:hover {
     color: #0366D6;
 }
 
+/* Currency */
+.currency-title {
+    color: #77428D;
+    margin-bottom: 1.5vw;
+}
+.currency-link {
+    color: #312070;
+}
+
+/* interface */
+.interface-title {
+    color: #24292E;
+    margin-bottom: 1.5vw;
+}
+.interface-link {
+    color: #CF9E1D;
+}
+
 /* RESPONSIVE */
 .content-web {
     display: none;
@@ -869,6 +899,10 @@ footer p a:hover {
         justify-content: space-between;
     }
     .zk-logo {
+        margin-right: 1.5em;
+        height: 3em;
+    }
+    .ac-logo {
         margin-right: 1.5em;
         height: 3em;
     }
