@@ -592,6 +592,14 @@ footer p a:hover {
     color: #001CE6;
 }
 
+.sspai-link {
+    color: #C13028;
+}
+
+.nasm-link {
+    color: #284165;
+}
+
 /* TRAVEL */
 .travel-title {
     width: 90vw;
