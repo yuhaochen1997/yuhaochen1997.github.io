@@ -60,12 +60,6 @@
             }
           });
         });
-
-        $(document).ready(function(){
-          $('#header').load("footer.html #_footer");
-          $('#footer').load("footer.html #_header");
-          });
-
     </script>
 
     <!-- Webpage Icons -->
@@ -73,13 +67,13 @@
     <link rel="icon" type="image/png" href="ac-logo.png"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89012104-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160710404-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-89012104-2');
+      gtag('config', 'UA-160710404-1');
     </script>
 
     <!-- Twitter Preview -->
@@ -97,7 +91,17 @@
     <header class="c12">
         <!-- Nav -->
         <div class="hero">
-            <div id="header" class="section"></div>
+            <div class="header">
+                <a href="/"><img alt="Alex Chen logo" src="ac-logo.svg" class="zk-logo"></a>
+                <h3 class="medium content-web">Alex Chen</h3>
+                <nav class="nav">
+                    <h5 class="option"><a href="/">About</a></h5>
+                    <h5 class="option"><a href="work">Work</a></h5>
+                    <h5 class="option"><a href="travel">Travel</a></h5>
+                    <h5 class="option"><a href="resume">Resume</a></h5>
+                </nav>
+            </div>
+
             <!-- Title -->
             <div class="title">
                 <h1 class="content-web emoji">⚜️</h1>
@@ -183,7 +187,21 @@
         </div>
     </div>
 
-    <div id="footer"></div>
+    <!-- Load the footer -->
+    <footer class="c12 grid">
+        <div class="c6-left">
+          <p>Work with me or grab some coffee, feel free to email me at <a href="mailto:yuhao_chen@berkeley.edu?subject=Hey!" target="_blank" rel="noopener">yuhao_chen@berkeley.edu</a>.</p>
+        </div>
+        <div class="social">
+            <a href="https://medium.com/@alex_chen_97" target="_blank" rel="noopener"><img alt="Medium icon" src="icons/medium.svg" class="icons"></a>
+            <a href="https://www.linkedin.com/in/yuhao-alex-chen-059346174/" target="_blank" rel="noopener"><img alt="LinkedIn icon" src="icons/linkedin.svg" class="icons"></a>
+        </div>
+
+        <!-- Back -->
+        <a href="/" aria-label="back" class="content-web no-display back"></a>
+        <!-- Scroll To Top -->
+        <a href="#top" aria-label="scroll to top" class="content-web no-display scroll-to-top"></a>
+    </footer>
 
 </body>
 
